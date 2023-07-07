@@ -1,0 +1,38 @@
+/* Fonts */
+@font-face {
+    src: url(fonts/Rubik-Light.ttf);
+    font-family: 'Rubik-300';
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Rubik-400';
+    src: url(fonts/Rubik-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Rubik-500';
+    src: url(./fonts/Rubik-Medium.ttf);
+    font-weight: 500;
+} 
+    
+@font-face {
+    font-family: 'Rubik-700';
+    src: url(./fonts/Rubik-Bold.ttf);
+    font-weight: 700;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
