@@ -36,3 +36,34 @@ ul, li {
 a {
     text-decoration: none;
 }
+
+body {
+    font-family: 'Rubik-400', sans-serif;
+    font-weight: 400;
+}
+
+/* general */
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    background: url(./images/Group\ 1321314200.png) no-repeat center;
+}
+
+.header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 90px;
+}
+
+.header .navbar .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
