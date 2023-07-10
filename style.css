@@ -51,7 +51,16 @@ body {
 /* header */
 
 .header {
-    background: url(./images/Group\ 1321314200.png) no-repeat center;
+    background: url(./images/Group\ 1321314200.png) no-repeat center / cover;
+    height: 100vh;
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .header .navbar {
@@ -66,4 +75,98 @@ body {
     align-items: center;
     justify-content: center;
     gap: 50px;
+}
+
+.header .navbar .menu .link {
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 3px solid transparent;
+    color: #1D1D1B;
+    transition: 0.2s;
+}
+
+.header .navbar .menu .link:hover {
+    border-color: #1D1D1B;
+}
+
+.header .content {
+    margin-bottom: 100px;
+    width: 775px;
+}
+
+.header .content .title {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Rubik-700', sans-serif;
+    color: #ffffff;
+}
+
+.header .content .text {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 30px 0 60px;
+    width: 700px;
+}
+
+.header .content .btn {
+    padding: 20px 36px;
+    background: #27ae60;
+    border: #27ae60;
+    color: #ffffff;
+    font-family: 'Rubik-500', sans-serif;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.header .content .btn:hover {
+    box-shadow: 0 0 10px #000;
+}
+
+/* about */
+.about {
+    padding: 80px 0;
+}
+
+.about .site-title {
+    font-size: 42px;
+    font-family: 'Rubik-500', sans-serif;
+    line-height: 50px;
+    color: #1D1D1B;
+}
+
+.about .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.about .card {
+    width: 273px;
+    border: 1px solid #A8A8A8;
+    border-radius: 8px;
+    padding: 20px 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about .card img {
+    width: 32px;
+    height: 32px;
+}
+
+.about .card p {
+    font-size: 14px;
+    color: #393838;
+    font-family: 'Rubik-500', sans-serif;
+    line-height: 20px;
+}
+
+.about .card p span {
+    color: #27ae60;
 }
