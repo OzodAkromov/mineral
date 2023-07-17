@@ -499,9 +499,30 @@ input[type=checkbox]{
     margin-top: 24px;
 }
 
+.services .container .btn {
+    width: 172px;
+    height: 49px;
+    border: 1px solid #27AE60;
+    background: #27AE60;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 800px;
+    margin-top: 50px;
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px;
+    font-family: 'Rubik-700', sans-serif;
+    font-weight: 700;
+    z-index: 4;
+}
+
 .map {
-    margin-left: 1000px;
-    margin-top: -1000px;
+    position: absolute;
+    z-index: -4;
+    margin-left: 747px;
+    margin-top: -850px;
     outline: none;
 }
 
