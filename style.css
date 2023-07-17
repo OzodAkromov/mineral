@@ -191,6 +191,18 @@ body {
     transition: 0.3s;
 }
 
+.materials .card:nth-child(2) {
+    background: url(./images/Rectangle\ 111.png) no-repeat center / cover;
+}
+
+.materials .card:nth-child(3) {
+    background: url(./images/krohka_asvalt-1100x1-1.jpg) no-repeat center / cover;
+}
+
+.materials .card:last-child {
+    background: url(./images/Rectangle\ 13.png) no-repeat center / cover;
+}
+
 
 .materials .card h1 {
     font-size: 35px;
@@ -506,7 +518,7 @@ input[type=checkbox]{
     background: #27AE60;
     border-radius: 4px;
     cursor: pointer;
-    margin-left: 800px;
+    margin-left: 50px;
     margin-top: 50px;
     position: absolute;
     text-align: center;
@@ -521,7 +533,7 @@ input[type=checkbox]{
 .map {
     position: absolute;
     z-index: -4;
-    margin-left: 747px;
+    margin-left: 750px;
     margin-top: -850px;
     outline: none;
 }
